@@ -1,0 +1,2261 @@
+{
+    "alarms": {
+        "types": {
+            "Alarm": {
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onAlarm": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "bookmarks": {
+        "types": {
+            "BookmarkTreeNode": {
+                "availableInChrome": true
+            },
+            "BookmarkTreeNodeType": {
+                "availableInChrome": false
+            },
+            "BookmarkTreeNodeUnmodifiable": {
+                "availableInChrome": true
+            },
+            "CreateDetails": {
+                "availableInChrome": false
+            }
+        },
+        "functions": {
+            "create": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "get": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getChildren": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getRecent": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getSubTree": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getTree": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "move": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "remove": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "removeTree": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "search": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "update": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onCreated": {
+                "availableInChrome": true
+            },
+            "onRemoved": {
+                "availableInChrome": true
+            },
+            "onChanged": {
+                "availableInChrome": true
+            },
+            "onMoved": {
+                "availableInChrome": true
+            },
+            "onChildrenReordered": {
+                "availableInChrome": true
+            },
+            "onImportBegan": {
+                "availableInChrome": true
+            },
+            "onImportEnded": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "browserAction": {
+        "types": {
+            "ColorArray": {
+                "availableInChrome": true
+            },
+            "ImageDataType": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "setTitle": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getTitle": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setIcon": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setPopup": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getPopup": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "openPopup": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "setBadgeText": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getBadgeText": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setBadgeBackgroundColor": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getBadgeBackgroundColor": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setBadgeTextColor": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "getBadgeTextColor": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "enable": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "disable": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "isEnabled": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        },
+        "events": {
+            "onClicked": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "browserSettings": {
+        "properties": {
+            "allowPopupsForUserEvents": {
+                "availableInChrome": false
+            },
+            "cacheEnabled": {
+                "availableInChrome": false
+            },
+            "closeTabsByDoubleClick": {
+                "availableInChrome": false
+            },
+            "contextMenuShowEvent": {
+                "availableInChrome": false
+            },
+            "homepageOverride": {
+                "availableInChrome": false
+            },
+            "imageAnimationBehavior": {
+                "availableInChrome": false
+            },
+            "newTabPageOverride": {
+                "availableInChrome": false
+            },
+            "newTabPosition": {
+                "availableInChrome": false
+            },
+            "openBookmarksInNewTabs": {
+                "availableInChrome": false
+            },
+            "openSearchResultsInNewTabs": {
+                "availableInChrome": false
+            },
+            "openUrlbarResultsInNewTabs": {
+                "availableInChrome": false
+            },
+            "overrideDocumentColors": {
+                "availableInChrome": false
+            },
+            "useDocumentFonts": {
+                "availableInChrome": false
+            },
+            "webNotificationsDisabled": {
+                "availableInChrome": false
+            }
+        }
+    },
+    "browsingData": {
+        "types": {
+            "DataTypeSet": {
+                "availableInChrome": true
+            },
+            "RemovalOptions": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "clipboard": {
+        "functions": {
+            "setImageData": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        }
+    },
+    "commands": {
+        "types": {
+            "Command": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "getAll": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "reset": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "update": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        },
+        "events": {
+            "onCommand": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "contentScripts": {
+        "types": {
+            "RegisteredContentScript": {
+                "availableInChrome": false
+            }
+        },
+        "functions": {
+            "register": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        }
+    },
+    "contextualIdentities": {
+        "types": {
+            "ContextualIdentity": {
+                "availableInChrome": false
+            }
+        },
+        "functions": {
+            "create": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "get": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "query": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "update": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "remove": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "onCreated": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "onRemoved": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "onUpdated": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        }
+    },
+    "cookies": {
+        "types": {
+            "Cookie": {
+                "availableInChrome": true
+            },
+            "CookieStore": {
+                "availableInChrome": true
+            },
+            "OnChangedCause": {
+                "availableInChrome": true
+            },
+            "SameSiteStatus": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "devtools.inspectedWindow": {},
+    "devtools.network": {
+        "functions": {
+            "getHAR": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        }
+    },
+    "devtools.panels": {},
+    "dns": {
+        "functions": {
+            "resolve": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        }
+    },
+    "downloads": {
+        "types": {
+            "FilenameConflictAction": {
+                "availableInChrome": true
+            },
+            "InterruptReason": {
+                "availableInChrome": true
+            },
+            "DangerType": {
+                "availableInChrome": true
+            },
+            "State": {
+                "availableInChrome": true
+            },
+            "DownloadItem": {
+                "availableInChrome": true
+            },
+            "StringDelta": {
+                "availableInChrome": true
+            },
+            "DoubleDelta": {
+                "availableInChrome": true
+            },
+            "BooleanDelta": {
+                "availableInChrome": true
+            },
+            "DownloadTime": {
+                "availableInChrome": false
+            },
+            "DownloadQuery": {
+                "availableInChrome": false
+            }
+        },
+        "functions": {
+            "download": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "search": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "pause": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "resume": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "cancel": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getFileIcon": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "open": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "show": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "showDefaultFolder": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "erase": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "removeFile": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "acceptDanger": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "drag": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setShelfEnabled": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onCreated": {
+                "availableInChrome": true
+            },
+            "onErased": {
+                "availableInChrome": true
+            },
+            "onChanged": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "events": {
+        "types": {
+            "Rule": {
+                "availableInChrome": true
+            },
+            "Event": {
+                "availableInChrome": true
+            },
+            "UrlFilter": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "extension": {
+        "types": {
+            "ViewType": {
+                "availableInChrome": true
+            }
+        },
+        "properties": {
+            "lastError": {
+                "availableInChrome": true
+            },
+            "inIncognitoContext": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "getBackgroundPage": {
+                "async": false,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getExtensionTabs": {
+                "async": false,
+                "void": false,
+                "deprecated": true,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getURL": {
+                "async": false,
+                "void": false,
+                "deprecated": true,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getViews": {
+                "async": false,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "isAllowedIncognitoAccess": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "isAllowedFileSchemeAccess": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "sendRequest": {
+                "async": null,
+                "void": true,
+                "deprecated": true,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setUpdateUrlData": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onRequest": {
+                "availableInChrome": true
+            },
+            "onRequestExternal": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "extensionTypes": {
+        "types": {
+            "ImageDetails": {
+                "availableInChrome": true
+            },
+            "ImageFormat": {
+                "availableInChrome": true
+            },
+            "InjectDetails": {
+                "availableInChrome": true
+            },
+            "RunAt": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "find": {
+        "functions": {
+            "find": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "highlightResults": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "removeHighlighting": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        }
+    },
+    "history": {
+        "types": {
+            "TransitionType": {
+                "availableInChrome": true
+            },
+            "HistoryItem": {
+                "availableInChrome": true
+            },
+            "VisitItem": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "search": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getVisits": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "addUrl": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "deleteUrl": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "deleteRange": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "deleteAll": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onTitleChanged": {
+                "availableInChrome": false
+            },
+            "onVisited": {
+                "availableInChrome": true
+            },
+            "onVisitRemoved": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "i18n": {
+        "types": {
+            "LanguageCode": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "getAcceptLanguages": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getMessage": {
+                "async": false,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getUILanguage": {
+                "async": false,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "detectLanguage": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        }
+    },
+    "identity": {
+        "functions": {
+            "getRedirectURL": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "launchWebAuthFlow": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        }
+    },
+    "idle": {
+        "types": {
+            "IdleState": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "queryState": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setDetectionInterval": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onStateChanged": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "management": {
+        "types": {
+            "ExtensionInfo": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "getAll": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "get": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getSelf": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "install": {
+                "async": false,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "uninstall": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "uninstallSelf": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getPermissionWarningsById": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getPermissionWarningsByManifest": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setEnabled": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "onInstalled": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "onUninstalled": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "onEnabled": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "onDisabled": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        }
+    },
+    "menus": {
+        "types": {
+            "ContextType": {
+                "availableInChrome": false
+            },
+            "ItemType": {
+                "availableInChrome": false
+            },
+            "OnClickData": {
+                "availableInChrome": false
+            }
+        },
+        "properties": {
+            "ACTION_MENU_TOP_LEVEL_LIMIT": {
+                "availableInChrome": false
+            }
+        },
+        "functions": {
+            "create": {
+                "async": false,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "getTargetElement": {
+                "async": false,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "refresh": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "remove": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "removeAll": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "update": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        },
+        "events": {
+            "onClicked": {
+                "availableInChrome": false
+            },
+            "onHidden": {
+                "availableInChrome": false
+            },
+            "onShown": {
+                "availableInChrome": false
+            }
+        }
+    },
+    "notifications": {
+        "types": {
+            "NotificationOptions": {
+                "availableInChrome": true
+            },
+            "TemplateType": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "clear": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "create": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getAll": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "update": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onButtonClicked": {
+                "availableInChrome": true
+            },
+            "onClicked": {
+                "availableInChrome": true
+            },
+            "onClosed": {
+                "availableInChrome": true
+            },
+            "onShown": {
+                "availableInChrome": false
+            }
+        }
+    },
+    "omnibox": {
+        "types": {
+            "OnInputEnteredDisposition": {
+                "availableInChrome": true
+            },
+            "SuggestResult": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "setDefaultSuggestion": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onInputStarted": {
+                "availableInChrome": true
+            },
+            "onInputChanged": {
+                "availableInChrome": true
+            },
+            "onInputEntered": {
+                "availableInChrome": true
+            },
+            "onInputCancelled": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "pageAction": {
+        "types": {
+            "ImageDataType": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "show": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "hide": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "isShown": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "setTitle": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getTitle": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setIcon": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setPopup": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getPopup": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "openPopup": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        },
+        "events": {
+            "onClicked": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "permissions": {
+        "types": {
+            "Permissions": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "pkcs11": {
+        "functions": {
+            "getModuleSlots": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "installModule": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "isModuleInstalled": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "uninstallModule": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        }
+    },
+    "privacy": {
+        "properties": {
+            "network": {
+                "availableInChrome": true
+            },
+            "services": {
+                "availableInChrome": true
+            },
+            "websites": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "proxy": {
+        "types": {
+            "ProxyInfo": {
+                "availableInChrome": false
+            },
+            "RequestDetails": {
+                "availableInChrome": false
+            }
+        },
+        "properties": {
+            "settings": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "register": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "unregister": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        },
+        "events": {
+            "onError": {
+                "availableInChrome": false
+            },
+            "onRequest": {
+                "availableInChrome": false
+            }
+        }
+    },
+    "runtime": {
+        "types": {
+            "Port": {
+                "availableInChrome": true
+            },
+            "MessageSender": {
+                "availableInChrome": true
+            },
+            "PlatformOs": {
+                "availableInChrome": true
+            },
+            "PlatformArch": {
+                "availableInChrome": true
+            },
+            "PlatformInfo": {
+                "availableInChrome": true
+            },
+            "RequestUpdateCheckStatus": {
+                "availableInChrome": true
+            },
+            "OnInstalledReason": {
+                "availableInChrome": true
+            },
+            "OnRestartRequiredReason": {
+                "availableInChrome": true
+            }
+        },
+        "properties": {
+            "lastError": {
+                "availableInChrome": true
+            },
+            "id": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "getBackgroundPage": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "openOptionsPage": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getManifest": {
+                "async": false,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getURL": {
+                "async": false,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setUninstallURL": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "reload": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "requestUpdateCheck": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "connect": {
+                "async": false,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "connectNative": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "sendMessage": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "sendNativeMessage": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getPlatformInfo": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getBrowserInfo": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "getPackageDirectoryEntry": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onStartup": {
+                "availableInChrome": true
+            },
+            "onInstalled": {
+                "availableInChrome": true
+            },
+            "onSuspend": {
+                "availableInChrome": true
+            },
+            "onSuspendCanceled": {
+                "availableInChrome": true
+            },
+            "onUpdateAvailable": {
+                "availableInChrome": true
+            },
+            "onBrowserUpdateAvailable": {
+                "availableInChrome": true
+            },
+            "onConnect": {
+                "availableInChrome": true
+            },
+            "onConnectExternal": {
+                "availableInChrome": true
+            },
+            "onMessage": {
+                "availableInChrome": true
+            },
+            "onMessageExternal": {
+                "availableInChrome": true
+            },
+            "onRestartRequired": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "search": {
+        "functions": {
+            "get": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "search": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        }
+    },
+    "sessions": {
+        "types": {
+            "Filter": {
+                "availableInChrome": true
+            },
+            "Session": {
+                "availableInChrome": true
+            }
+        },
+        "properties": {
+            "MAX_SESSION_RESULTS": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "forgetClosedTab": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "forgetClosedWindow": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "getRecentlyClosed": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "restore": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setTabValue": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "getTabValue": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "removeTabValue": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "setWindowValue": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "getWindowValue": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "removeWindowValue": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        },
+        "events": {
+            "onChanged": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "sidebarAction": {
+        "types": {
+            "ImageDataType": {
+                "availableInChrome": false
+            }
+        },
+        "functions": {
+            "setPanel": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "getPanel": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "setTitle": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "getTitle": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "setIcon": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "open": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "close": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "isOpen": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        }
+    },
+    "storage": {
+        "types": {
+            "StorageArea": {
+                "availableInChrome": true
+            },
+            "StorageChange": {
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onChanged": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "tabs": {
+        "types": {
+            "MutedInfoReason": {
+                "availableInChrome": true
+            },
+            "MutedInfo": {
+                "availableInChrome": true
+            },
+            "PageSettings": {
+                "availableInChrome": false
+            },
+            "Tab": {
+                "availableInChrome": true
+            },
+            "TabStatus": {
+                "availableInChrome": true
+            },
+            "WindowType": {
+                "availableInChrome": true
+            },
+            "ZoomSettingsMode": {
+                "availableInChrome": true
+            },
+            "ZoomSettingsScope": {
+                "availableInChrome": true
+            },
+            "ZoomSettings": {
+                "availableInChrome": true
+            }
+        },
+        "properties": {
+            "TAB_ID_NONE": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "captureTab": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "captureVisibleTab": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "connect": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "create": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "detectLanguage": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "discard": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "duplicate": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "executeScript": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "get": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getAllInWindow": {
+                "async": true,
+                "void": false,
+                "deprecated": true,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getCurrent": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getSelected": {
+                "async": true,
+                "void": false,
+                "deprecated": true,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getZoom": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getZoomSettings": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "hide": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": true,
+                "availableInChrome": false
+            },
+            "highlight": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "insertCSS": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "move": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "print": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "printPreview": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "query": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "reload": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "remove": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "removeCSS": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "saveAsPDF": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "sendMessage": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "sendRequest": {
+                "async": true,
+                "void": false,
+                "deprecated": true,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setZoom": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "setZoomSettings": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "show": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": true,
+                "availableInChrome": false
+            },
+            "toggleReaderMode": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "update": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onActivated": {
+                "availableInChrome": true
+            },
+            "onActiveChanged": {
+                "availableInChrome": true
+            },
+            "onAttached": {
+                "availableInChrome": true
+            },
+            "onCreated": {
+                "availableInChrome": true
+            },
+            "onDetached": {
+                "availableInChrome": true
+            },
+            "onHighlightChanged": {
+                "availableInChrome": true
+            },
+            "onHighlighted": {
+                "availableInChrome": true
+            },
+            "onMoved": {
+                "availableInChrome": true
+            },
+            "onRemoved": {
+                "availableInChrome": true
+            },
+            "onReplaced": {
+                "availableInChrome": true
+            },
+            "onSelectionChanged": {
+                "availableInChrome": true
+            },
+            "onUpdated": {
+                "availableInChrome": true
+            },
+            "onZoomChange": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "theme": {
+        "types": {
+            "Theme": {
+                "availableInChrome": false
+            }
+        },
+        "functions": {
+            "getCurrent": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "update": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            },
+            "reset": {
+                "async": null,
+                "void": true,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": false
+            }
+        },
+        "events": {
+            "onUpdated": {
+                "availableInChrome": false
+            }
+        }
+    },
+    "topSites": {
+        "types": {
+            "MostVisitedURL": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "get": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        }
+    },
+    "types": {
+        "types": {
+            "BrowserSetting": {
+                "availableInChrome": false
+            }
+        }
+    },
+    "webNavigation": {
+        "types": {
+            "TransitionType": {
+                "availableInChrome": true
+            },
+            "TransitionQualifier": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "getFrame": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getAllFrames": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onBeforeNavigate": {
+                "availableInChrome": true
+            },
+            "onCommitted": {
+                "availableInChrome": true
+            },
+            "onDOMContentLoaded": {
+                "availableInChrome": true
+            },
+            "onCompleted": {
+                "availableInChrome": true
+            },
+            "onErrorOccurred": {
+                "availableInChrome": true
+            },
+            "onCreatedNavigationTarget": {
+                "availableInChrome": true
+            },
+            "onReferenceFragmentUpdated": {
+                "availableInChrome": true
+            },
+            "onTabReplaced": {
+                "availableInChrome": true
+            },
+            "onHistoryStateUpdated": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "webRequest": {
+        "types": {
+            "BlockingResponse": {
+                "availableInChrome": true
+            },
+            "CertificateInfo": {
+                "availableInChrome": false
+            },
+            "HttpHeaders": {
+                "availableInChrome": true
+            },
+            "RequestFilter": {
+                "availableInChrome": true
+            },
+            "ResourceType": {
+                "availableInChrome": true
+            },
+            "SecurityInfo": {
+                "availableInChrome": false
+            },
+            "StreamFilter": {
+                "availableInChrome": false
+            },
+            "UploadData": {
+                "availableInChrome": true
+            }
+        },
+        "properties": {
+            "MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES": {
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onBeforeRequest": {
+                "availableInChrome": true
+            },
+            "onBeforeSendHeaders": {
+                "availableInChrome": true
+            },
+            "onSendHeaders": {
+                "availableInChrome": true
+            },
+            "onHeadersReceived": {
+                "availableInChrome": true
+            },
+            "onAuthRequired": {
+                "availableInChrome": true
+            },
+            "onResponseStarted": {
+                "availableInChrome": true
+            },
+            "onBeforeRedirect": {
+                "availableInChrome": true
+            },
+            "onCompleted": {
+                "availableInChrome": true
+            },
+            "onErrorOccurred": {
+                "availableInChrome": true
+            }
+        }
+    },
+    "windows": {
+        "types": {
+            "WindowType": {
+                "availableInChrome": true
+            },
+            "WindowState": {
+                "availableInChrome": true
+            },
+            "Window": {
+                "availableInChrome": true
+            },
+            "CreateType": {
+                "availableInChrome": true
+            }
+        },
+        "properties": {
+            "WINDOW_ID_NONE": {
+                "availableInChrome": true
+            },
+            "WINDOW_ID_CURRENT": {
+                "availableInChrome": true
+            }
+        },
+        "functions": {
+            "get": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getCurrent": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getLastFocused": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "getAll": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "create": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "update": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            },
+            "remove": {
+                "async": true,
+                "void": false,
+                "deprecated": false,
+                "experimental": false,
+                "availableInChrome": true
+            }
+        },
+        "events": {
+            "onCreated": {
+                "availableInChrome": true
+            },
+            "onRemoved": {
+                "availableInChrome": true
+            },
+            "onFocusChanged": {
+                "availableInChrome": true
+            }
+        }
+    }
+}
