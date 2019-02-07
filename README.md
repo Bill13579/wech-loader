@@ -1,10 +1,28 @@
-<div align="center">
-  <a href="https://github.com/Bill13579/wech-loader">
-    <img width="200" height="200"
-      src="https://webpack.js.org/assets/icon-square-big.svg">
-  </a>
-  <a href="https://github.com/webpack/webpack">
-    <img width="200" height="200"
-      src="https://webpack.js.org/assets/icon-square-big.svg">
-  </a>
-</div>
+# WeCh Loader
+A loader for porting WebExtensions into Chrome Extensions.
+WeCh is an abbreviation of the words "Webextensions" and "Chrome".
+
+## Getting Started
+To begin, you'll need to install `wech-loader`:
+
+```console
+$ npm install wech-loader --save-dev
+```
+
+Then add it to your webpack configuration:
+
+*webpack.config.js*
+
+```js
+// webpack.config.js
+module.exports = {
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                use: 'wech-loader'
+            }
+        ]
+    }
+}
+```

@@ -1,6 +1,7 @@
 {
     "name": "wech-loader",
     "version": "1.0.0",
+    "main": "src/loader.js",
     "description": "Port WebExtensions into Chrome Extensions",
     "author": "Bill Kudo <bluesky42624@gmail.com> (https://www.WhatsYourIdea.com)",
     "license": "AGPL-3.0-only",

@@ -14,7 +14,7 @@ const schema = {
     }
 };
 
-export default function (source) {
+export default function loader(source) {
     const options = getOptions(this) || {};
     validateOptions(schema, options, "WebExtension Chrome Port Loader");
     const chars = source.split("");
