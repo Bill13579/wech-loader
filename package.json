@@ -1,5 +1,5 @@
 {
-    "name": "webext-chrome-port-loader",
+    "name": "wech-loader",
     "version": "1.0.0",
     "description": "Port WebExtensions into Chrome Extensions",
     "author": "Bill Kudo <bluesky42624@gmail.com> (https://www.WhatsYourIdea.com)",
