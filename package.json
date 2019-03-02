@@ -1,11 +1,12 @@
 {
     "name": "wech-loader",
     "version": "1.0.0",
-    "main": "src/loader.js",
+    "main": "dist/loader.js",
     "description": "Port WebExtensions into Chrome Extensions",
     "author": "Bill Kudo <bluesky42624@gmail.com> (https://www.WhatsYourIdea.com)",
     "license": "AGPL-3.0-only",
     "scripts": {
+        "build": "webpack --config webpack.config.js",
         "test": "mocha --require babel-core/register test/*.test.js"
     },
     "devDependencies": {
@@ -13,7 +14,8 @@
         "babel-preset-env": "^1.7.0",
         "memory-fs": "^0.4.1",
         "mocha": "^5.2.0",
-        "webpack": "^4.28.4"
+        "webpack": "^4.28.4",
+        "webpack-cli": "^3.2.3"
     },
     "dependencies": {
         "loader-utils": "^1.2.3",
