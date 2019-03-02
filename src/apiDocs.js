@@ -1,7 +1,6 @@
 import fs from "fs"
 import path from "path"
-
-const apiDocs = JSON.parse(fs.readFileSync(path.join(__dirname, "data/api-docs.json"), "utf8"));
+import apiDocs from "./data/api-docs.json"
 
 export function getApi(apiCall) {
     apiCall = apiCall.replace(/\s/g, "");
