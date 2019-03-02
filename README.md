@@ -1,6 +1,6 @@
-# WeCh Loader
+# WECH Loader
 A loader for porting WebExtensions into Chrome Extensions.
-WeCh is an abbreviation of the words "Webextensions" and "Chrome".
+WECH is an abbreviation of the words "Webextensions" and "Chrome".
 
 ## Getting Started
 To begin, you'll need to install `wech-loader`:
