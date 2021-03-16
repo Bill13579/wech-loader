@@ -3,7 +3,7 @@
     "version": "1.0.2",
     "main": "dist/loader.js",
     "description": "Port WebExtensions into Chrome Extensions",
-    "author": "Bill Kudo <bluesky42624@gmail.com> (https://www.WhatsYourIdea.com)",
+    "author": "BillK <bluesky42624@gmail.com>",
     "license": "AGPL-3.0-only",
     "scripts": {
         "build": "webpack --config webpack.config.js",
